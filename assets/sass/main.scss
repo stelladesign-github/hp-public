@@ -364,9 +364,9 @@
 		}
 
 		@include breakpoint('<=medium') {
-			br {
-				display: none;
-			}
+			// br {
+			// 	display: none;
+			// }
 		}
 	}
 
@@ -1103,9 +1103,9 @@
 		@include breakpoint('<=medium') {
 			display: block;
 
-			br {
-				display: none;
-			}
+			// br {
+			// 	display: none;
+			// }
 
 			.image {
 				width: 100%;
@@ -1690,9 +1690,9 @@
 				font-size: 1.25em;
 			}
 
-			br {
-				display: none;
-			}
+			// br {
+			// 	display: none;
+			// }
 
 			.more {
 				display: none;
