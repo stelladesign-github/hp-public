@@ -1,5 +1,5 @@
 .fade {
-  animation: imgfade 5s infinite;
+  animation: imgfade 5s;
   opacity: 0;
 }
 
@@ -20,5 +20,11 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .br-sp {
+    display: none;
   }
 }
