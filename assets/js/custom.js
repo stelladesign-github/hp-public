@@ -15,3 +15,10 @@ function startFade(img, urls) {
     }, 100);
   }, 5000);
 }
+
+const mailUser = "stelladg164";
+const mailDomain = "gmail.com";
+$("#mail").on("click", function () {
+  location.href = "mailto:" + mailUser + "@" + mailDomain;
+  return false;
+});
