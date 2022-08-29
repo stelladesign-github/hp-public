@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <title>アクリル加工のステラデザイン</title>
@@ -24,27 +19,8 @@
       <!-- Header -->
       <header id="header" class="alt">
         <h1><a href="index.html">Stella Design</a></h1>
-        <!--
-		<nav id="nav">
-          <ul>
-            <li class="special">
-              <a href="#menu" class="menuToggle"><span>Menu</span></a>
-              <div id="menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="generic.html">Generic</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Log In</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </nav>
-		-->
       </header>
 
-      <!-- Banner -->
       <section id="banner">
         <div class="inner">
           <h2>Stella Design</h2>
@@ -119,7 +95,7 @@
           <div class="content">
             <h2>Key Ring</h2>
             <p>
-              お気に入りの写真からアクリルキーホルダーをお作り致します。<br />
+              お気に入りの写真からキーホルダーをお作り致します。<br />
               ※ 2個からのご注文でお願いしております。
             </p>
           </div>
@@ -214,12 +190,51 @@
         <div class="inner">
           <header>
             <h2>Stella Design</h2>
-            <p>お気軽にお問合せください。</p>
+            <p>
+              お気軽にお問合せください。<br />個人情報やお送りいただいたデータの取扱いは、細心の注意を払っております。
+            </p>
           </header>
           <ul class="actions stacked">
-            <li><a href="#" class="button fit primary">お問合せ</a></li>
-            <li><a href="#" class="button fit">会社概要</a></li>
+            <li>
+              <a href="#" class="button fit primary maillink">お問合せ</a>
+            </li>
+            <li><a href="#" id="company" class="button fit">会社概要</a></li>
           </ul>
+        </div>
+
+        <div id="company_modal" style="display: none">
+          <div id="company_close"></div>
+          <div id="company_modal_main">
+            <div class="table-wrapper">
+              <span class="company_name">ステラデザイン</span>
+              <table class="alt">
+                <tbody>
+                  <tr>
+                    <td>所在地</td>
+                    <td>栃木県宇都宮市東簗瀬1-15-8</td>
+                  </tr>
+                  <tr>
+                    <td>代表者</td>
+                    <td>鈴木 大志</td>
+                  </tr>
+                  <tr>
+                    <td>事業内容</td>
+                    <td>
+                      ・アクリル加工<br />
+                      　3mm、5mmのレーザーカット<br />
+                      　UV印刷<br />
+                      ・キーホルダー制作<br />
+                      ・アクリルスタンド制作<br />
+                      ・アクセサリー制作<br />
+                      ・スマホケース印刷<br />
+                      ・紙媒体チラシ<br />
+                      ・ポスター制作
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -235,7 +250,7 @@
             >
           </li>
           <li>
-            <a href="#" id="mail" class="icon solid fa-envelope"
+            <a href="#" class="icon solid fa-envelope maillink"
               ><span class="label">Email</span></a
             >
           </li>

@@ -18,7 +18,16 @@ function startFade(img, urls) {
 
 const mailUser = "stelladg164";
 const mailDomain = "gmail.com";
-$("#mail").on("click", function () {
+$(".maillink").on("click", function () {
   location.href = "mailto:" + mailUser + "@" + mailDomain;
   return false;
+});
+
+$("#company_modal").hide();
+$("#company").on("click", function () {
+  $("#company_modal").fadeIn();
+  return false;
+});
+$("#company_close").on("click", function () {
+  $("#company_modal").fadeOut();
 });
