@@ -28,6 +28,7 @@ $("#company").on("click", function () {
   $("#company_modal").fadeIn();
   return false;
 });
-$("#company_close").on("click", function () {
+$("#company_close, #company_close_btn").on("click", function () {
   $("#company_modal").fadeOut();
+  return false;
 });
