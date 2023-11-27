@@ -1,6 +1,11 @@
 startFade($("#fadeImg1"), ["images/pic02.jpg", "images/pic022.jpg"]);
-startFade($("#fadeImg2"), ["images/pic05.jpg", "images/pic052.jpg"]);
+startFade($("#fadeImg2"), [
+  "images/pic12.jpg",
+  "images/pic05.jpg",
+  "images/pic052.jpg",
+]);
 startFade($("#fadeImg3"), ["images/pic10.jpg", "images/pic102.jpg"]);
+startFade($("#fadeImg4"), ["images/pic07.jpg", "images/pic11.jpg"]);
 function startFade(img, urls) {
   img.addClass("fade");
   let count = 0;
