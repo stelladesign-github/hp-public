@@ -4,7 +4,7 @@ startFade($("#fadeImg2"), [
   "images/pic05.jpg",
   "images/pic052.jpg",
 ]);
-startFade($("#fadeImg3"), ["images/pic10.jpg", "images/pic102.jpg"]);
+startFade($("#fadeImg3"), ["images/pic06_1.jpg", "images/pic06_2.jpg"]);
 startFade($("#fadeImg4"), ["images/pic07.jpg", "images/pic11.jpg"]);
 function startFade(img, urls) {
   img.addClass("fade");
