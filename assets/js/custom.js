@@ -6,6 +6,14 @@ startFade($("#fadeImg2"), [
 ]);
 startFade($("#fadeImg3"), ["images/pic06_1.jpg", "images/pic06_2.jpg"]);
 startFade($("#fadeImg4"), ["images/pic07.jpg", "images/pic11.jpg"]);
+startFade($("#fadeImg5"), ["images/1000006036.jpg", "images/pic09.jpg"]);
+startFade($("#fadeImg6"), [
+  "images/1000006032.jpg",
+  "images/1000006033.jpg",
+  "images/pic03.jpg",
+]);
+startFade($("#fadeImg7"), ["images/1000006034.jpg", "images/1000006035.jpg"]);
+
 function startFade(img, urls) {
   img.addClass("fade");
   let count = 0;
